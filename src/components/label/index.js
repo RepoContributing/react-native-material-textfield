@@ -13,7 +13,7 @@ export default class Label extends PureComponent {
 
   static propTypes = {
     numberOfLines: PropTypes.number,
-
+    style: Text.propType,
     disabled: PropTypes.bool,
     restricted: PropTypes.bool,
 
@@ -43,7 +43,6 @@ export default class Label extends PureComponent {
       y1: PropTypes.number,
     }),
 
-    style: PropTypes.any,
     label: PropTypes.string,
   };
 
